@@ -36,6 +36,7 @@ $conn=mysqli_connect('localhost', 'root', 'Tbone123', 'customers');
 
 	<div class="header">
 	    <h2>Netlink Control</h2>
+
 	    <div class='w3-panel w3-blue'>														
 		<bold><h2>Customer Information</h2></bold><t><t>
 		  
@@ -49,6 +50,8 @@ $conn=mysqli_connect('localhost', 'root', 'Tbone123', 'customers');
 
 		  <input type="button" value="Show Full List" id="returnBtn" 
 			onclick="clearState()"></input>
+
+ 		   - click on a state cell to see subgroup by AJAX
 	
 	    </div> <!-- close blue div  -->
 	</div><!-- close header div-->
